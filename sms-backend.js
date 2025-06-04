@@ -30,5 +30,5 @@ app.post('/enviar-sms', async (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log('Backend de SMS rodando em http://localhost:3000');
+  console.log('Backend de SMS rodando em https://github.com/Marciojenys/meionorteexpress.git');
 });
