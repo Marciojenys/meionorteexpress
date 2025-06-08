@@ -1,5 +1,13 @@
 {
-  "name": "meionorte-tracking-backend",
+  "name": "wppconnect-backend",
   "version": "1.0.0",
-  "type": "module"
+  "main": "backend-wppconnect.js",
+  "scripts": {
+    "start": "node backend-wppconnect.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "@wppconnect-team/wppconnect": "^1.9.7"
+  }
 }
